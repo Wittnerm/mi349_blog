@@ -6,7 +6,12 @@
     <title>Blogs</title>
 </head>
 <h1>Max Wittner's Blog Posts</h1>
-<a rel="About Me" href="about.html">About me</a><br>
+<nav>
+    <ul>
+        <li><a rel="About Me" href="about.html">About me</a></li>
+        <li><a rel="Contact" href="contact.html">Contact me</a></li>
+    </ul>
+</nav>
  <article>
     <header>
         <h2>My Favorite Video Game of All Time</h2>
@@ -34,17 +39,41 @@
             <a rel="Photo Credit" href="https://www.nytimes.com/2011/11/26/arts/video-games/the-elder-scrolls-v-skyrim-video-game-review.html">Photo Credit: New York Times</a>
         </figcaption>
     </figure>
+</article>
 
-    <br>
-    <br>
-    <br>
-    <br>
-
+<article>
     <header>
         <h2>Restoring Cars</h2>
         <address class="author">By <strong>Max Wittner</strong></address> 
         on <time datetime="2020-10-11 14:36">October 11th, 2020</time>
     </header>
+    <h3>Cars I'm working on</h3>
+    <table>
+        <tr>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Engine</th>
+        </tr>
+        <tr>
+            <td>Chevrolet</td>
+            <td>Monte Carlo</td>
+            <td>1977</td>
+            <td>455 Buick</td>
+        </tr>
+        <tr>
+            <td>Pontiac</td>
+            <td>Grand Prix SJ</td>
+            <td>1973</td>
+            <td>455 Pontiac</td>
+        </tr>
+        <tr>
+            <td>Chevrolet</td>
+            <td>Corvette Stingray</td>
+            <td>1977</td>
+            <td>383 Stroker</td>
+        </tr>
+    </table>
 
     <p>
         Restoring classic cars is a hobby of mine introduced to me by my dad. I worked in his shop as a diesel mechanic for four years and during that time, I<br>
@@ -65,5 +94,16 @@
         </figcaption>
     </figure>
 </article>
+
+<section>
+    <h2>Email Newsletter Signup</h2>
+    <form>
+        <label>
+            <input type="text" placeholder="Enter email address">
+        </label>
+        <button>Subscribe</button>
+    </form>
+</section>
+    
 
 </html>
