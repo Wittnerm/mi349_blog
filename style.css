@@ -35,6 +35,10 @@ p {
     border-top: 1px dotted #ccc;
 }
 
+#blog2 {
+    border-top: 1px dotted #ccc;
+}
+
 .blog-post {
     border-bottom: 1px dotted #ccc;
 }
