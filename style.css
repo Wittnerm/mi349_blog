@@ -279,12 +279,4 @@ input[type=submit]:hover {
         margin: auto;
         width: auto;
     }
-
-    header {
-        margin: 0;
-    }
-    
-    .navsticky {
-        margin: 0;
-    }
 }
