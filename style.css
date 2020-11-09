@@ -280,7 +280,7 @@ input[type=submit]:hover {
         width: auto;
     }
 
-    #bloghead {
-        padding-top: 10px;
+    header {
+        margin: auto;
     }
 }
